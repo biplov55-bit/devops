@@ -1,0 +1,35 @@
+C# Script Files Only
+===================
+
+This file lists only the .cs scripts in the project so they can be shared easily.
+
+Assets/Scripts/AnimationDriver.cs
+Assets/Scripts/AudioManager.cs
+Assets/Scripts/BulletProjectile.cs
+Assets/Scripts/CameraController.cs
+Assets/Scripts/CameraShaker.cs
+Assets/Scripts/EnemyAI.cs
+Assets/Scripts/EnemyAnimationDriver.cs
+Assets/Scripts/Enemyhealth.cs
+Assets/Scripts/FPSArms.cs
+Assets/Scripts/GameManager.cs
+Assets/Scripts/GunShooter.cs
+Assets/Scripts/Handik.cs
+Assets/Scripts/HUDController.cs
+Assets/Scripts/HealthArmorSystem.cs
+Assets/Scripts/InputManager.cs
+Assets/Scripts/InventorySystem.cs
+Assets/Scripts/ItemData.cs
+Assets/Scripts/LootItem.cs
+Assets/Scripts/ObjectPoolManager.cs
+Assets/Scripts/PlayerController.cs
+Assets/Scripts/ReloadSystem.cs
+Assets/Scripts/SafeZoneManager.cs
+Assets/Scripts/WeaponBase.cs
+Assets/Scripts/WeaponController.cs
+Assets/Scripts/WeaponData.cs
+Assets/Scripts/WeaponRecoil.cs
+Assets/Scripts/WeaponSwitcher.cs
+Assets/TutorialInfo/Readme.cs
+Assets/TutorialInfo/Editor/ReadmeEditor.cs
+Assets/bla bla/NewEmptyCSharpScript.cs

@@ -13,16 +13,16 @@ TagManager:
   - Water
   - UI
   - WeaponLayer
-  - 
+  - Player
   - Enemy
   - EnemyHead
   - Cover
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Interactable
+  - Projectile
+  - PlayerBody
+  - FirstPersonBody
+  - PlayerFullBody
   - 
   - 
   - 

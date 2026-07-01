@@ -25,7 +25,7 @@ namespace FreeFire
         public Transform muzzlePoint;   // tip of barrel
         public Camera    fpsCam;        // Main Camera
         public LayerMask headLayer;     // EnemyHead layer
-
+        public LayerMask shootMask = ~0; 
         [Header("Effects — drag prefabs")]
         public GameObject muzzleFlashPrefab;
         public GameObject bulletHolePrefab;
@@ -131,7 +131,7 @@ namespace FreeFire
                         + _camTransform.up    * Random.Range(-spread, spread) * 0.01f;
             dir.Normalize();
 
-            if (Physics.Raycast(origin, dir, out RaycastHit hit, range))
+            if (Physics.Raycast(origin, dir, out RaycastHit hit, range, shootMask))
             {
                 ProcessHit(hit);
                 if (bulletTracerPrefab != null && muzzlePoint != null)
